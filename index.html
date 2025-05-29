@@ -53,14 +53,14 @@
 
         <div class="formulario">
             <h3>Comentame tus dudas.</h3>
-            <form action="" class="encuesta">
+            <form  action="" class="encuesta" id="preguntasFormulario">
                 <label for="nombres">Nombres y apellidos:</label>
                 <input type="text" id="nombres" name="nombres" required>
                 <label for="email">Correo electrónico:</label>
                 <input type="email" id="email" name="email" required>
                 <label for="comentarios">Comentarios:</label>
                 <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
-                <button type="submit" id="enviar">Enviar</button>
+                <button type="button" onclick="enviarFormulario()" id="enviar">Enviar</button>
             </form>
         </div>
     </main>
