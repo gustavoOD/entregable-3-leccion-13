@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Primer Sitio Wevb</title>
+</head>
+<body>
+    <header>
+        <h1>Sitio Personal</h1>
+        <h3>Informacion sobre mis pasatiempos y actividades</h3>
+    </header>
+    <main>
+        <div class="contenedor_imagen">
+            <img src="Practica.jpg" alt="imagen">
+        </div>
+        <div class="contenedor_texto">
+            <h3>Mis Pasatiempos</h3>
+            <p>Me gusta la programacion y el deporte.</p>
+            <p>En mi tiempo libre disfruto de aprender nuevas tecnologias y
+                mejorar mis habilidades.
+            </p>
+        </div>
+        <h3>Mis tareas</h3>
+        <ol>
+            <li>Aprender HTML y CSS</li>
+            <li>Estudiar programación</li>
+            <li>Hacer ejercicio regularmente</li>
+        </ol>
+
+        <h3>Tabla de Pasatiempos</h3>
+        <table>
+            <tr>
+                <th>Pasatiempo</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Ver peliculas</td>
+                <td>Disfruto mirar peliculas de toda clase de genero</td>
+            </tr>
+            <tr>
+                <td>Programar</td>
+                <td>Me gusta experimentar desafios.</td>
+            </tr>
+            <tr>
+                <td>Viajar</td>
+                <td>Me gusta conocer nuevos lugares.</td>
+            </tr>
+        </table>
+
+        <div class="formulario">
+            <h3>Comentame tus dudas.</h3>
+            <form action="" class="encuesta">
+                <label for="nombres">Nombres y apellidos:</label>
+                <input type="text" id="nombres" name="nombres" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
